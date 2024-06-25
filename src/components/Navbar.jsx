@@ -24,10 +24,18 @@ const Navbar = () => {
             title:"Blogs",
             path:'/blogs'
         },
+        {
+            title:"Dashboard",
+            path:'/dashboard'
+        },
+        {
+            title:"Posts",
+            path:'/posts'
+        },
 
     ]
     const handleLogin = ()=>{
-        router.push('/about')
+        router.push('/login')
     }
     if(pathName.includes("dashboard"))
         return(

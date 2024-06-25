@@ -1,5 +1,11 @@
 
-
+export const metadata = {
+    title: {
+        absolute:"about | history "
+    },
+    description: "About History",
+    keywords:["about","about pages"]
+  };
 const page = () => {
     return (
         <div>
