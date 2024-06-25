@@ -27,7 +27,7 @@ const Page = () => {
 
     return (
         <div>
-            <h1>Blogs</h1>
+            <h1>Blogs </h1>
             {blogs.map((blog) => (
                 <div key={blog.id} className='border-2 p-12'>
                     <h3>{blog.title}</h3>
