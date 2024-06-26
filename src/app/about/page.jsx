@@ -1,4 +1,4 @@
-import AboutContent from "@/components/aboutContent";
+import AboutContent from "@/components/AboutContent";
 
 export const metadata = {
     title: "about ",
