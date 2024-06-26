@@ -5,7 +5,7 @@ export const metadata = {
     description: "CHEAPEST HERO",
   };
   const getTime = async()=>{
-    const res = await fetch("http://localhost:3000/time",{next:{revalidate:5}});
+    const res = await fetch("/time",{next:{revalidate:5}});
     const data = await res.json();
     return data.currentTime;
   }
